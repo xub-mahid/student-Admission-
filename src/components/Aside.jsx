@@ -52,7 +52,7 @@ export default function Aside({name, onNameChange, email, onEmailChange, course,
                 </div>
 
                 <button 
-                    className="w-full bg-indigo-600 text-white py-3 rounded font-bold"
+                    className="hover:bg-red-400 w-full bg-indigo-600 text-white py-3 rounded font-bold"
                     onClick={addStudent} 
                 >
                     যোগ করুন
